@@ -10,26 +10,39 @@ body {
 }
 
 h2 {
-    font: 12px;
+    font-size: 14px;
+    color: cadetblue;
+}
+
+h3 {
+    color: white;
 }
 
 .container {
     margin: 15% 20%;
     padding: 10px;
     background-color: mintcream;
+    border-radius: 15px;
     display: flex;
+    height: 300px;
 }
 
 .appLeft {
     padding: 10px;
     display: flex;
-    flex-direction: column
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
 }
 
 .appRight {
-    padding. 10px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    border-radius: 15px;
+    background-color: teal;
+    width: 50%;
 }
 
 .tip {
@@ -40,5 +53,17 @@ h2 {
     padding: 5px;
     background-color: darkslategray;
     color: mintcream;
+    border-radius: 5px;
 
+}
+
+.reset {
+    color: teal;
+    background-color: lightseagreen;
+    width: 80%;
+    justify-items: center;
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    font-family: arial;
 }
