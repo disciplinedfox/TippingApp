@@ -1,7 +1,44 @@
 * {
     font-family: 'Courier New', Courier, monospace;
-    background-color: paleturquoise;
+    
     margin: 0;
     padding: 0;
 }
 
+body {
+    background-color: paleturquoise;
+}
+
+h2 {
+    font: 12px;
+}
+
+.container {
+    margin: 15% 20%;
+    padding: 10px;
+    background-color: mintcream;
+    display: flex;
+}
+
+.appLeft {
+    padding: 10px;
+    display: flex;
+    flex-direction: column
+}
+
+.appRight {
+    padding. 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tip {
+    border: none;
+    font-size: 30px;
+    width: 110px;
+    height: 45px;
+    padding: 5px;
+    background-color: darkslategray;
+    color: mintcream;
+
+}
