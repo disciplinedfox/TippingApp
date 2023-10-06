@@ -33,7 +33,7 @@ input {
 }
 
 input::placeholder {
-    color: paleturquoise;
+    color: forestgreen;
 }
 input[type=text]:focus {
     background-color: mintcream;
@@ -101,7 +101,7 @@ input[type=text]:focus {
 
 .tip {
     border: none;
-    font-size: 25px;
+    font-size: 20px;
     width: 100px;
     height: 45px;
     padding: 5px;
@@ -139,6 +139,7 @@ input[type=text]:focus {
     background-size: 14px;
     background-repeat: no-repeat;
     background-position-y: center;
+    
 }
 
 #peopleAmount {
