@@ -12,10 +12,20 @@ body {
 h2 {
     font-size: 14px;
     color: cadetblue;
+    margin-bottom: 5px;
 }
 
 h3 {
     color: white;
+}
+
+input {
+    border: none;
+    color: paleturquoise;
+}
+
+input::placeholder {
+    color: paleturquoise;
 }
 
 .container {
@@ -27,8 +37,13 @@ h3 {
     height: 300px;
 }
 
+.selectedTip {
+    background-color: aquamarine;
+}
+
 .appLeft {
     padding: 10px;
+    padding-left: 5px;;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -37,6 +52,7 @@ h3 {
 
 .appRight {
     padding: 10px;
+    padding-left: 5px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -45,16 +61,50 @@ h3 {
     width: 50%;
 }
 
+.appRightLower {
+    display: flex;
+    justify-content: center;
+}
+
+.appRightUpper {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.appRightUpperRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.numbers {
+    font-size: 35px;
+    font-weight:bolder;
+    color: aquamarine;
+
+} 
+
 .tip {
     border: none;
-    font-size: 30px;
-    width: 110px;
+    font-size: 25px;
+    width: 100px;
     height: 45px;
     padding: 5px;
     background-color: darkslategray;
     color: mintcream;
     border-radius: 5px;
+    margin: 5px;
 
+}
+
+.tipAmount {
+    margin-bottom: 30px;
+
+}
+
+.perPerson {
+    margin-top: 10px;
 }
 
 .reset {
@@ -67,3 +117,4 @@ h3 {
     height: 50px;
     font-family: arial;
 }
+
